@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/8efc9270e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form3.css">
 </head>
-<body>
-   <div>
-    <div>
-        <a href="#">Sign up</a>
-        <a href="#">Sign in</a>
+<body class="mybody">
+<div class="container">
+    <div class="links">
+        <a href="#" class="sup">Sign up</a>
+        <a href="#" class="sin">Sign in</a>
     </div>
 
     <p>Create Account</p>
 
     <table>
-        <form>
+        <form id="form" method="post" onsubmit="return validateform()">
             <tr>
                 <td><i class="fa-solid fa-user"></i><input type="text" id="fname" placeholder="Full Name"></td>
             </tr>
@@ -27,7 +28,7 @@
             </tr>
 
             <tr>
-                <td><i class="fa-solid fa-envelope-open"></i><input type="email" placeholder="Email" id="email"></td>
+                <td><i class="fa-solid fa-envelope-open"></i><input type="email" placeholder="Email" id="email" required></td>
             </tr>
 
             <tr>
@@ -44,13 +45,14 @@
         </form>
     </table>
 
-    <p>Or sign up with</p>
+    <p class="sign">Or sign up with</p>
 
-    <div>
-        <p><i class="fa-brands fa-google"></i>&nbsp;Google</p>
-        <p><i class="fa-brands fa-facebook-f"></i>&nbsp;Facebook</p>
+    <div class="media">
+        <p class="google"><i class="fa-brands fa-google"></i>&nbsp;Google</p>
+        <p class="facebook"><i class="fa-brands fa-facebook-f"></i>&nbsp;Facebook</p>
     </div>
-   </div> 
+</div> 
    
+<script src="form3.js"></script>
 </body>
 </html>

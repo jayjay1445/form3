@@ -1,0 +1,95 @@
+.mybody{
+    width: 400px;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    border: 2px solid;
+    background-color: gainsboro
+}
+.links{
+    background-color: blueviolet;
+    height: 70px;
+}
+.sup{
+    position: relative;
+    bottom: -50px;
+}
+.links > a{
+    text-decoration: none;
+    color: white;
+}
+.links > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.sup a:hover{
+    color: white;
+}
+.sin{
+    position: relative;
+    bottom: -50px;
+    padding-left: 150px;
+}
+#fname{
+    border-radius: 25px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+}
+#uname{
+    border-radius: 25px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+}
+#email{
+    border-radius: 25px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+}
+#passw1{
+    border-radius: 25px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+}
+#passw2{
+    border-radius: 25px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+}
+#submit{
+    width: 200px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    border-radius: 25px;
+    height: 30px;
+}
+.sign{
+    color: black;
+    font-family: sans-serif;
+    font-size: large;
+}
+.media{
+    display: flex;
+}
+.google{
+    border: 2px solid;
+    border-radius: 25px;
+    width: 80px;
+    border-spacing: 10px;
+}
+.facebook{
+    border: 2px solid;
+    border-radius: 25px;
+    width: 100px;
+    border-spacing: 10px;
+}
